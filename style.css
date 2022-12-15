@@ -1,0 +1,79 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 150px;
+}
+
+.face {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+.face .eyes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+}
+.face .eyes span {
+  background-color: black;
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+}
+.face .smile {
+  width: 300px;
+  height: 150px;
+  border: 30px solid #ce0033;
+  border-bottom-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+  border-top: 0;
+}
+
+h1 {
+  padding: 50px 0;
+  color: #ce0033;
+  font-size: 3rem;
+}
+
+main {
+  border: 1px solid green;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .first,
+main .second {
+  border: 1px solid purple;
+  height: 100%;
+  width: 45%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+main .first h2,
+main .second h2 {
+  color: #ce0033;
+}
+main img {
+  width: 350px;
+}/*# sourceMappingURL=style.css.map */
